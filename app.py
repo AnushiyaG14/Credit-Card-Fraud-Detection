@@ -23,9 +23,9 @@ def set_image_local(image_path):
         unsafe_allow_html=True
     )
 
-set_image_local(r"D:\streamlit\env1\DL\Bank\img1.jpg")
+set_image_local(r"img1.jpg")
 # Load the trained model
-model = load_model(r"D:\streamlit\env1\DL\Bank\detection_model.h5")  
+model = load_model(r"detection_model.h5")  
 
 # Function to make predictions
 def predict_fraud(data):
