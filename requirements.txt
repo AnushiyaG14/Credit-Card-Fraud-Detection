@@ -1,0 +1,4 @@
+pandas
+base64
+streamlit
+tensorflow
